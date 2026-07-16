@@ -69,7 +69,7 @@ Router(config-subif)# exit
 ### Test 1: Inter-VLAN Routing Verification
 To prove our sub-interfaces are correctly routing traffic across network layers, we verify connectivity with an ICMP ping from the Control Room to the Security Zone. 
 
-Below is the verified screenshot of our successful ping test from the Admin PC to the IP Webcam:
+Below is the verified screenshot of our successful ping test from the Admin PC to the Ceiling Fan:
 
 ![Successful Ping Test Verification](media/ping-test.png)
 
@@ -87,6 +87,6 @@ Devices on VLAN 20, 30, and 40 establish client-server sockets back to the IoT S
 
 Below is the verified screenshot of our IoT server logic and active conditions setup:
 
-![IoT Server Logic and Condition Check Verification](media/condition-check.png)
+![IoT Server Logic and Condition Check Verification](media/test-case.png)
 
 * Triggering a simulated environmental sensor event successfully initiates cross-subnet automation commands—instantly sounding the emergency **Siren** (VLAN 40) and switching the **Ceiling Fan** (VLAN 40) to high-speed ventilation.
