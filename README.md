@@ -1,6 +1,8 @@
 # IoT-Based Smart Green Energy Microgrid Station
 
-A simulated, automated, and secure industrial network design developed in **Cisco Packet Tracer**. This project showcases the logical isolation of critical power infrastructure, inter-VLAN routing, and centralized IoT automation to control green energy distribution and emergency safety systems.
+A secure and automated **Smart Microgrid Station** designed in **Cisco Packet Tracer**. 
+
+This project demonstrates how to segment critical power infrastructure using **VLANs**, route traffic securely via **Router-on-a-Stick** and deploy real-time **IoT automation loops** for grid safety and monitoring.
 
 ---
 
